@@ -1,0 +1,8 @@
+2016/11/30 15:57:12 [1;34m[I] [asm_amd64.s:2086] http server Running on http://118.178.127.45:80[0m
+2016/11/30 15:57:15 [1;34m[D] [server.go:2202] |123.103.243.174|[42m 200 [0m|    426.837µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/30 15:57:15 [1;34m[D] [server.go:2202] |123.103.243.174|[42m 200 [0m|    175.022µs|   match|[44m GET     [0m /static/javascript/nav.js[0m
+2016/11/30 15:57:15 [1;34m[D] [server.go:2202] |123.103.243.174|[42m 200 [0m|    142.903µs|   match|[44m GET     [0m /static/javascript/helloPanel.js[0m
+2016/11/30 15:57:16 [1;34m[D] [server.go:2202] |123.103.243.174|[42m 200 [0m|    432.453µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/30 15:57:19 [1;34m[D] [server.go:2202] |123.103.243.174|[42m 200 [0m|    364.063µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/30 15:57:20 [1;34m[D] [server.go:2202] |123.103.243.174|[47m 304 [0m|     86.691µs|   match|[44m GET     [0m /static/javascript/helloPanel.js[0m
+2016/11/30 15:57:20 [1;34m[D] [server.go:2202] |123.103.243.174|[47m 304 [0m|     13.695µs|   match|[44m GET     [0m /static/javascript/nav.js[0m

@@ -1,0 +1,59 @@
+2016/11/20 18:12:00 [1;34m[I] [asm_amd64.s:2086] http server Running on http://118.178.127.45:80[0m
+2016/11/20 18:12:18 [1;34m[D] [server.go:2202] |  110.84.28.254|[42m 200 [0m|    363.327µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/20 18:12:21 [1;34m[D] [server.go:2202] |  110.84.28.254|[42m 200 [0m|    271.485µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/20 18:13:48 [1;34m[D] [server.go:2202] |  110.84.28.254|[42m 200 [0m|    361.139µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/20 18:13:52 [1;34m[D] [server.go:2202] |  110.84.28.254|[42m 200 [0m|    300.644µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/20 18:13:52 [1;34m[D] [server.go:2202] |  110.84.28.254|[43m 404 [0m|    398.524µs| nomatch|[44m GET     [0m /favicon.ico[0m
+2016/11/20 18:13:56 [1;34m[D] [server.go:2202] |  110.84.28.254|[42m 200 [0m|    377.466µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/20 18:13:57 [1;34m[D] [server.go:2202] |  110.84.28.254|[42m 200 [0m|    309.265µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/20 18:14:13 [1;34m[D] [server.go:2202] |  110.84.28.254|[42m 200 [0m|     314.88µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/20 18:15:50 [1;34m[D] [server.go:2202] |  110.84.28.254|[42m 200 [0m|    277.195µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/20 19:55:58 [1;34m[D] [server.go:2202] |  218.85.134.47|[43m 405 [0m|     83.986µs|   match|[45m HEAD    [0m /     r:/[0m
+2016/11/20 20:39:29 [1;34m[D] [server.go:2202] |103.242.202.196|[43m 405 [0m|     96.321µs|   match|[45m HEAD    [0m /     r:/[0m
+2016/11/20 20:43:11 [1;34m[D] [server.go:2202] |199.193.253.110|[42m 200 [0m|    442.936µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/20 20:57:49 [1;34m[D] [server.go:2202] |   45.76.64.130|[43m 404 [0m|    413.706µs| nomatch|[44m GET     [0m /forum.php[0m
+2016/11/20 22:57:48 [1;34m[D] [server.go:2202] |   69.58.178.57|[43m 404 [0m|    407.802µs| nomatch|[44m GET     [0m /robots.txt[0m
+2016/11/20 22:58:00 [1;34m[D] [server.go:2202] |   69.58.178.57|[42m 200 [0m|    454.488µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 00:20:58 [1;34m[D] [server.go:2202] |  121.42.210.61|[43m 404 [0m|    307.927µs| nomatch|[44m GET     [0m /admin[0m
+2016/11/21 02:24:39 [1;34m[D] [server.go:2202] | 54.165.126.204|[43m 404 [0m|    298.641µs| nomatch|[44m GET     [0m /wp-login.php[0m
+2016/11/21 02:43:16 [1;34m[D] [server.go:2202] |103.242.202.196|[43m 405 [0m|     72.447µs|   match|[45m HEAD    [0m /     r:/[0m
+2016/11/21 04:35:57 [1;34m[D] [server.go:2202] | 112.74.206.117|[42m 200 [0m|    380.265µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 04:40:27 [1;34m[D] [server.go:2202] |   157.55.39.36|[43m 404 [0m|    335.495µs| nomatch|[44m GET     [0m /robots.txt[0m
+2016/11/21 04:40:30 [1;34m[D] [server.go:2202] |   157.55.39.36|[42m 200 [0m|    313.964µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 05:09:42 [1;34m[D] [server.go:2202] |  123.125.71.78|[43m 404 [0m|    285.913µs| nomatch|[44m GET     [0m /img/favicon.ico[0m
+2016/11/21 05:48:14 [1;34m[D] [server.go:2202] |183.129.160.229|[42m 200 [0m|    275.271µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 06:17:27 [1;34m[D] [server.go:2202] |  104.148.70.22|[42m 200 [0m|    392.792µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 06:17:28 [1;34m[D] [server.go:2202] |  104.148.70.22|[43m 404 [0m|    328.441µs| nomatch|[44m GET     [0m /http://www.yiencloud.com/[0m
+2016/11/21 06:27:54 [1;34m[D] [server.go:2202] | 172.82.166.210|[43m 404 [0m|    292.551µs| nomatch|[44m GET     [0m /cache/global/img/gs.gif[0m
+2016/11/21 07:23:25 [1;34m[D] [server.go:2202] |  81.172.70.126|[42m 200 [0m|    305.878µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 07:23:29 [1;34m[D] [server.go:2202] |  81.172.70.126|[42m 200 [0m|    321.064µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 08:20:10 [1;34m[D] [server.go:2202] |  218.85.134.47|[43m 405 [0m|     95.761µs|   match|[45m HEAD    [0m /     r:/[0m
+2016/11/21 08:25:31 [1;34m[D] [server.go:2202] |    120.76.28.5|[42m 200 [0m|     395.75µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 08:25:35 [1;34m[D] [server.go:2202] |    120.76.28.5|[43m 405 [0m|     65.821µs|   match|[45m HEAD    [0m /     r:/[0m
+2016/11/21 08:25:39 [1;34m[D] [server.go:2202] |    120.76.28.5|[43m 404 [0m|    292.921µs| nomatch|[0m TRACE   [0m    [0m
+2016/11/21 08:25:44 [1;37m[server.go:2315] [HTTP] http: panic serving 120.76.28.5:36744: reflect: call of reflect.Value.Call on zero Value
+goroutine 79 [running]:
+net/http.(*conn).serve.func1(0xc42031a300)
+	/usr/local/go/src/net/http/server.go:1491 +0x12a
+panic(0x8298c0, 0xc42030c6a0)
+	/usr/local/go/src/runtime/panic.go:458 +0x243
+github.com/astaxie/beego.recoverPanic(0xc420191c80)
+	/root/projects/src/src/github.com/astaxie/beego/config.go:154 +0x804
+panic(0x8298c0, 0xc42030c6a0)
+	/usr/local/go/src/runtime/panic.go:458 +0x243
+reflect.flag.mustBe(0x0, 0x13)
+	/usr/local/go/src/reflect/value.go:201 +0xae
+reflect.Value.Call(0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x2)
+	/usr/local/go/src/reflect/value.go:300 +0x38
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc420079680, 0xaabe20, 0xc42031e340, 0xc4203181e0)
+	/root/projects/src/src/github.com/astaxie/beego/router.go:794 +0x1e7e
+net/http.serverHandler.ServeHTTP(0xc42006e300, 0xaabe20, 0xc42031e340, 0xc4203181e0)
+	/usr/local/go/src/net/http/server.go:2202 +0x7d
+net/http.(*conn).serve(0xc42031a300, 0xaac720, 0xc4202de740)
+	/usr/local/go/src/net/http/server.go:1579 +0x4b7
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2293 +0x44d[0m
+2016/11/21 08:43:16 [1;34m[D] [server.go:2202] | 220.134.11.102|[42m 200 [0m|    281.221µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 08:43:32 [1;34m[D] [server.go:2202] |   92.247.83.67|[42m 200 [0m|    297.185µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 10:31:14 [1;34m[D] [server.go:2202] |  219.85.62.148|[42m 200 [0m|    369.994µs|   match|[44m GET     [0m /     r:/[0m
+2016/11/21 10:37:37 [1;34m[D] [server.go:2202] |  110.84.28.254|[42m 200 [0m|    278.291µs|   match|[44m GET     [0m /     r:/[0m

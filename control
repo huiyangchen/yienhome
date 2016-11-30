@@ -1,0 +1,95 @@
+#!/bin/bash
+
+WORKSPACE=$(cd $(dirname $0)/; pwd)
+cd $WORKSPACE
+
+mkdir -p var
+
+app=young
+conf=cfg.json
+logfile=var/app.log
+
+function start() {
+    pid=`pidof $app`
+    if [ ! -z $pid ] ; then
+        echo "$app now is running already, pid=$pid"
+        return 1
+    fi
+    nohup ./$app &> $logfile &
+    echo "$app started..., pid=$!"
+}
+
+function stop() {
+    pid=`pidof $app`
+    if [ ! -z $pid ] ; then
+        kill $pid
+    fi
+    echo "$app stoped..."
+}
+
+function restart() {
+    stop
+    sleep 1
+    start
+}
+
+function status() {
+    pid=`pidof $app`
+    if [ ! -z $pid ];then
+        echo "$app now is running, pid=$pid"
+    else
+        echo "$app is stoped"
+    fi
+}
+
+function tailf() {
+    tail -f $logfile
+}
+
+function build() {
+    go build
+    if [ $? -ne 0 ]; then
+        exit $?
+    fi
+    ./$app -v
+}
+
+function pack() {
+    build
+    git log -1 --pretty=%h > gitversion
+    version=`./$app -v`
+    tar zcvf $app-$version.tar.gz control cfg.example.json $app gitversion
+}
+
+function packbin() {
+    build
+    git log -1 --pretty=%h > gitversion
+    version=`./$app -v`
+    tar zcvf $app-bin-$version.tar.gz $app gitversion
+}
+
+function help() {
+    echo "$0 build|pack|packbin|start|stop|restart|status|tail"
+}
+
+if [ "$1" == "" ]; then
+    help
+elif [ "$1" == "stop" ];then
+    stop
+elif [ "$1" == "start" ];then
+    start
+elif [ "$1" == "restart" ];then
+    restart
+elif [ "$1" == "status" ];then
+    status
+elif [ "$1" == "tail" ];then
+    tailf
+elif [ "$1" == "build" ];then
+    build
+elif [ "$1" == "pack" ];then
+    pack
+elif [ "$1" == "packbin" ];then
+    packbin
+else
+    help
+fi
